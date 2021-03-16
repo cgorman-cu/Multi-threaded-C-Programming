@@ -1,0 +1,16 @@
+name:  Cayden Gorman
+email: cago7426@colorado.edu
+
+Makefile - compiles all the files.
+
+multi_lookup.c - This contains the function defintions for the reqester and resolver threads and has a main function to run the program.
+multi_lookup.h - A header file containing prototypes for the requester and resolver thread functions.
+
+queue.c, queue.h - A simple first in first out queue not thread safe by defult.
+
+util.c, util.h(provided by professor)- These two files contain the DNS lookup utility function. This function abstracts away a lot of the complexity involved with performing a DNS lookup.
+
+performance.txt - Shows the performance using a few differnt combinations of resolver and requester threads.
+
+To compile the code first run make, then to use the program and run
+./multi-lookup <# requester> <# resolver> serviced.txt results.txt ./input/*

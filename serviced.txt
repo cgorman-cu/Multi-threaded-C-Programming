@@ -1,0 +1,3 @@
+Thread 0x7023700 serviced 12 files
+Thread 0x6822700 serviced 9 files
+Thread 0x6021700 serviced 9 files
